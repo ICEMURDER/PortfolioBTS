@@ -100,6 +100,7 @@
     text-align: right;
     color: beige;
     vertical-align: text-bottom;
+    padding-right: 15px;
 }
 #Social-Media {
     background: linear-gradient(rgba(0, 0, 255, 0.623), aquamarine);
