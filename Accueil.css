@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+#MenuPrincipale {
+    width: auto;
+    height: 75px;
+}
+
+#MesBouttons {
+    width: auto;
+    height: 110px;;
+    margin-bottom: 10px;
+}
+
+#BouttonGauche {
+    float: left;
+    height : 95;
+    width : 110;
+    border-top : 55px solid transparent;
+    border-bottom : 55px solid transparent;
+    border-left : 95px solid rgb(159, 159, 159);
+}
+
+.LeftImage, .LeftLink {
+    left: 5px;
+    margin-top: -10px;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+}
+
+#En-tete {
+    width: auto;
+    position: relative;
+    overflow: auto;
+    height: 70px;
+    border-bottom: 5px solid; /*Taille de la bordure*/
+    border-color:aquamarine; /*Couleur de la bordure*/
+    background-color: silver; /*Couleur de la div*/
+}
+
+#BouttonDroite {
+    float: right;
+    width : 0;
+    height: 0;
+    border-top : 55px solid transparent;
+    border-right : 95px solid rgb(159, 159, 159);
+    border-bottom : 55px solid transparent;     
+}
+
+.RightImage, .RightLink {
+    right: 5px;
+    margin-top: -10px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+#Presentation {
+    width: auto;
+    height: 200px;
+    background-color: rgb(51, 0, 72);
+    margin-bottom: 150px;
+}
+
+#Curiculum-Vitae {
+    width: auto;
+    height: 200px;
+    background-color: rgb(146, 182, 0);
+    margin-bottom: 150px;
+}
+
+#InfosComplementaire {
+    width: auto;
+    height: 200px;
+    background-color: rgb(0, 247, 194);
+    margin-bottom: 150px;
+}
+
+#OutilsEtCompetences{
+    width: auto;
+    height: 200px;
+    background-color: olivedrab;
+    margin-bottom: 150px;
+}
+
+#Footer {
+    width: 83%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    float:right;
+    border-radius: 12rem 0 0 12rem;
+    bottom: 0px;
+}
+
+.MentionsLegales {
+    text-align: right;
+    color: beige;
+    vertical-align: text-bottom;
+}
+#Social-Media {
+    background: linear-gradient(rgba(0, 0, 255, 0.623), aquamarine);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    transition: 2s;
+    bottom: 50px;
+    position: relative;
+    left: 5px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Social-Media:hover {
+    background: linear-gradient(rgba(0, 0, 255, 0.623), aquamarine);
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    position: relative;
+    transition: 2s;
+    bottom: 145px;
+}
+
+#LogoContact {
+    transition: opacity 2s;
+    opacity: 0;
+    text-align: center;
+}
+
+.Mes-Sites {
+    width: 20px;
+    height: 20px;
+}
+
+.Mes-Sites:hover {
+    cursor: pointer;
+
+}
+
+#Bouton-Websites{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(246, 255, 0);
+    border-radius: 50%;
+    border-style: none;
+}
+
+.Mon-Logo-1 {
+    padding-top: 5px;
+}
+
+#Website {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(198, 255, 237, 0.758), rgba(255, 242, 146, 0.792));
+    transition: opacity 3s;
+    opacity: 0;
+    bottom: 20px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+}
+
+#Logowebsite {
+    transition: opacity 2s;
+    opacity: 0;
+    text-align: center;
+}
+
+.Logo-Site-1 {
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+}
+
+
+.CV {
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.CV:hover {
+    cursor: pointer;
+}

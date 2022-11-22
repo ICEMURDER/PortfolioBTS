@@ -1,0 +1,76 @@
+<!DOCTYPE html> <!--"!" permet de générer automatiquement la structure de la page html-->
+    <html lang="fr">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--à vérifier quant à son importance.-->
+            <link rel="stylesheet" href="Accueil.css">
+            <title>Accueil</title>
+        </head>
+
+        <body>
+            <header id="MenuPrincipale">
+                <div id="En-tete">
+                    <p></p>
+                </div>  
+            </header>
+
+            <nav id="MesBouttons">
+                <div id="BouttonGauche">
+                    <a href="Formation.php" class="LeftLink"><img src="images\graduation-hat.png"  alt="Ma Formation" class="LeftImage"></a>
+                </div>    
+
+                <div id="BouttonDroite">
+                    <a href="Documentations.php" class="RightLink"><img src="images\case-study.png" class="RightImage"></a>
+                </div>
+            </nav>
+
+            <div id="Presentation">
+                <h2>Ma Présentation :</h2>
+                <br>
+                <p>Je m'appelle Victor Ramos, je suis un étudiant de 20 ans en 2eme année de BTS SIO (Services Informatiques aux Organisations) et je suis en cours d'acquissition des compétences vu par les étudiant en section SLAM (Solution Logiciel Applications Métier), j'ai donc durant mes deux années eu le temps détudier divers langages de programmations tel que Java, Python, C#, javascript, NodeJS, des IDEs parmi eux Visual Studios et Visual Studios Code, Sharpdevelopp mais également Android Studios, mais aussi des domaines importants de la cybersécuriter. </p>
+            </div>
+
+            <div id="Curiculum-Vitae">
+                <h2>Mon CV :</h2>
+                <br>
+                <button onclick="telechargement()"><img src="images\PDF-Logo.svg" alt="Téléchargement du CV" class="CV"></img></button>
+                <br>
+                <p>Cliquez sur le PDF pour télécharger mon CV</p> 
+            </div>
+
+            <div id="InfosComplementaire">
+                <h2>Compléments d'informations :</h2>
+                <br>
+                <p>Etant un étudiant, j'ai su tiré parti des enseignements qui on été fait durant ma formation, par conséquent je suis une personne autonome, mais je suis aussi quelqu'un de persévérant et qui ne se décourage pas, je m'adapte aux situations auxquelles je fais face et je cherche à m'améliorer dans de nombreux domaines.</p>  
+            </div>
+
+            <div id="OutilsEtCompetences">
+                <h2>Mes outils et compétences :</h2>
+                <br>
+            </div>
+
+            <div id="Footer">
+                <p class="MentionsLegales"><i>Les mentions légales du site</i></p>  
+            </div>
+
+            <div id="Social-Media">
+                <ul id="LogoContact">
+                    <li class="Mon-Logo-1" ><button id="Bouton-Websites" onclick="Internet()"><img src="images\loupe.svg" class="Mes-Sites" alt="Mes sites internet"></button></li>
+                    <li class="Mon-Logo-2" ><img src="" class="Youtube"></li>
+                    <li class="Mon-Logo-3" ><img src="" class="Mon-Entreprise"></li>
+                    <li class="Mon-Logo-4" ><img src="" class="Autres"></li>
+                </ul>
+
+                <div id="Website">
+                    <ul id="Logowebsite">
+                        <li class="Logo-Site-1"><a href="Nucle-Art.html"><img src="images\internet.svg"></a></li>
+                        <li class="Logo-Site-2"></li>
+                        <li class="Logo-Site-3"></li>
+                        <li class="Logo-Site-4"></li>
+                        <li class="Logo-Site-5"></li>
+                    </ul>
+                </div>
+            </div>
+            <script src="TestFonctionnalite.js" type="text/javascript"></script> 
+        </body>
+    </html>
